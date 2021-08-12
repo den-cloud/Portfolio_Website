@@ -4,24 +4,27 @@ body {
   position: absolute;
   width: 375px;
   height: 718px;
-  left: 0px;
-  top: 0px;
-  background: #ffffff;
+  left: 0;
+  top: 0;
+  background: #fff;
 
   header {
     .Logo {
+      /* stylelint-disable csstree/validator */
       display: flex;
       justify-content: space-between;
+
       ul {
         li {
           list-style: none;
+
           a {
             position: static;
             height: 20px;
             left: 12px;
             top: 10px;
             text-decoration: none;
-            font-family: Poppins;
+            font-family: 'Poppins', sans-serif;
             font-style: normal;
             font-weight: bold;
             font-size: 18px;
@@ -33,8 +36,9 @@ body {
             flex: none;
             order: 0;
             flex-grow: 0;
-            margin: 0px 0px;
+            margin: 0 0;
           }
+
           i {
             color: #6070ff;
           }
@@ -51,6 +55,7 @@ body {
 
       .hero {
         padding-top: 90px;
+
         h1 {
           position: static;
           width: 327px;
@@ -68,7 +73,7 @@ body {
           flex: none;
           order: 0;
           flex-grow: 0;
-          margin: 12px 0px;
+          margin: 12px 0;
         }
 
         p {
@@ -76,7 +81,7 @@ body {
           width: 327px;
           left: 24px;
           top: 276px;
-          font-family: Poppins;
+          font-family: 'Poppins', sans-serif;
           font-style: normal;
           font-weight: normal;
           font-size: 16px;
@@ -85,15 +90,15 @@ body {
           flex: none;
           order: 1;
           flex-grow: 0;
-          margin: 12px 0px;
+          margin: 12px 0;
         }
       }
 
       .social_logos {
         span {
           a {
-            padding: .3rem;
-            color: #505F79;
+            padding: 0.3rem;
+            color: #505f79;
           }
         }
       }

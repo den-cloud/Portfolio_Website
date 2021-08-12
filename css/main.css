@@ -1,20 +1,22 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;1,100&display=swap");
+
 body {
   position: absolute;
   width: 375px;
   height: 718px;
-  left: 0px;
-  top: 0px;
-  background: #ffffff;
+  left: 0;
+  top: 0;
+  background: #fff;
 }
 
 body header .Logo {
+  /* stylelint-disable csstree/validator */
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
 }
 
 body header .Logo ul li {
@@ -27,7 +29,7 @@ body header .Logo ul li a {
   left: 12px;
   top: 10px;
   text-decoration: none;
-  font-family: Poppins;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 18px;
@@ -36,19 +38,19 @@ body header .Logo ul li a {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   text-align: center;
   color: #6070ff;
   -webkit-box-flex: 0;
-      -ms-flex: none;
-          flex: none;
+  -ms-flex: none;
+  flex: none;
   -webkit-box-ordinal-group: 1;
-      -ms-flex-order: 0;
-          order: 0;
+  -ms-flex-order: 0;
+  order: 0;
   -ms-flex-positive: 0;
-      flex-grow: 0;
-  margin: 0px 0px;
+  flex-grow: 0;
+  margin: 0 0;
 }
 
 body header .Logo ul li i {
@@ -80,18 +82,18 @@ body main .hero_section .hero h1 {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   color: #172b4d;
   -webkit-box-flex: 0;
-      -ms-flex: none;
-          flex: none;
+  -ms-flex: none;
+  flex: none;
   -webkit-box-ordinal-group: 1;
-      -ms-flex-order: 0;
-          order: 0;
+  -ms-flex-order: 0;
+  order: 0;
   -ms-flex-positive: 0;
-      flex-grow: 0;
-  margin: 12px 0px;
+  flex-grow: 0;
+  margin: 12px 0;
 }
 
 body main .hero_section .hero p {
@@ -99,25 +101,24 @@ body main .hero_section .hero p {
   width: 327px;
   left: 24px;
   top: 276px;
-  font-family: Poppins;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
   line-height: 24px;
   color: #344563;
   -webkit-box-flex: 0;
-      -ms-flex: none;
-          flex: none;
+  -ms-flex: none;
+  flex: none;
   -webkit-box-ordinal-group: 2;
-      -ms-flex-order: 1;
-          order: 1;
+  -ms-flex-order: 1;
+  order: 1;
   -ms-flex-positive: 0;
-      flex-grow: 0;
-  margin: 12px 0px;
+  flex-grow: 0;
+  margin: 12px 0;
 }
 
 body main .hero_section .social_logos span a {
-  padding: .3rem;
-  color: #505F79;
+  padding: 0.3rem;
+  color: #505f79;
 }
-/*# sourceMappingURL=main.css.map */
