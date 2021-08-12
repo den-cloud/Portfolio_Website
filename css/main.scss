@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;1,100&display=swap");
+
 body {
   position: absolute;
   width: 375px;
@@ -35,6 +37,63 @@ body {
           }
           i {
             color: #6070ff;
+          }
+        }
+      }
+    }
+  }
+
+  main {
+    .hero_section {
+      background-image: url(/images/Shapes.svg);
+      background-repeat: no-repeat;
+      padding: 0 2rem;
+
+      .hero {
+        padding-top: 90px;
+        h1 {
+          position: static;
+          width: 327px;
+          height: 150px;
+          left: 24px;
+          top: 114px;
+          font-family: "Poppins", sans-serif;
+          font-style: normal;
+          font-weight: bold;
+          font-size: 40px;
+          line-height: 52px;
+          display: flex;
+          align-items: center;
+          color: #172b4d;
+          flex: none;
+          order: 0;
+          flex-grow: 0;
+          margin: 12px 0px;
+        }
+
+        p {
+          position: static;
+          width: 327px;
+          left: 24px;
+          top: 276px;
+          font-family: Poppins;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 16px;
+          line-height: 24px;
+          color: #344563;
+          flex: none;
+          order: 1;
+          flex-grow: 0;
+          margin: 12px 0px;
+        }
+      }
+
+      .social_logos {
+        span {
+          a {
+            padding: .3rem;
+            color: #505F79;
           }
         }
       }
