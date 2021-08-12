@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap");
+
+body {
+  position: absolute;
+  width: 375px;
+  height: 718;
+  left: 0px;
+  top: 0;
+  background-color: #ffffff;
+  background-image: url(/images/header_shapes.png);
+  background-repeat: no-repeat;
+
+  header {
+    nav {
+      /* stylelint-disable csstree/validator */
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+      height: 2rem;
+
+      ul {
+        height: 2rem;
+
+        li {
+          height: 100%;
+          list-style-type: none;
+          cursor: pointer;
+
+          a {
+            color: #000;
+            text-decoration: none;
+            font-family: "Crete Round", serif;
+            font-weight: 800;
+          }
+        }
+      }
+    }
+  }
+
+  main {
+    .hero_section {
+      height: 80vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+      .social_logos {
+        ul {
+          li {
+            list-style-type: none;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap");
+body {
+  position: absolute;
+  width: 375px;
+  height: 718;
+  left: 0px;
+  top: 0;
+  background-color: #ffffff;
+  background-image: url(/images/header_shapes.png);
+  background-repeat: no-repeat;
+}
+
+body header nav {
+  /* stylelint-disable csstree/validator */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+  height: 2rem;
+}
+
+body header nav ul {
+  height: 2rem;
+}
+
+body header nav ul li {
+  height: 100%;
+  list-style-type: none;
+  cursor: pointer;
+}
+
+body header nav ul li a {
+  color: #000;
+  text-decoration: none;
+  font-family: "Crete Round", serif;
+  font-weight: 800;
+}
+
+body main .hero_section {
+  height: 80vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body main .hero_section .social_logos ul li {
+  list-style-type: none;
+}
+/*# sourceMappingURL=main.css.map */
