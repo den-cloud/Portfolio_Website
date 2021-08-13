@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;1,100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap");
 
 body {
   position: absolute;
@@ -172,6 +172,28 @@ body {
           }
         }
       }
+    }
+    .project_details {
+      position: static;
+      width: 295px;
+      height: 76px;
+      left: 0px;
+      top: 92px;
+      font-family: sans-serif;
+      font-style: normal;
+      font-weight: normal;
+      // font-size: 3rem;
+      line-height: 24px;
+      color: black;
+    }
+    .technologies_used {
+      // display: flex;
+      // padding: 4px 12px;
+
+      position: static;
+      // width: 53px;
+      background: #ebebff;
+      border-radius: 8px;
     }
   }
 }

@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;1,100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap");
 body {
   position: absolute;
   width: 375px;
@@ -203,5 +203,24 @@ body main .projects_section .project .details_div .some_details .bold {
 body main .projects_section .project .details_div .some_details li {
   display: inline;
   padding: 0 1rem;
+}
+
+body main .project_details {
+  position: static;
+  width: 295px;
+  height: 76px;
+  left: 0px;
+  top: 92px;
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 24px;
+  color: black;
+}
+
+body main .technologies_used {
+  position: static;
+  background: #ebebff;
+  border-radius: 8px;
 }
 /*# sourceMappingURL=main.css.map */
