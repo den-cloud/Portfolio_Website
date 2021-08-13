@@ -116,12 +116,14 @@ body {
       left: calc(50% - 327px / 2);
       top: 114px;
       background: #fff;
-      border: 1px solid #dfe1e6;
-      box-sizing: border-box;
-      border-radius: 16px;
-      margin: 5rem 1rem;
+      margin: 3rem 0;
 
       .project {
+        box-sizing: border-box;
+        border-radius: 16px;
+        margin: 1rem;
+        padding: 1rem;
+        border: 1px solid #dfe1e6;
         .details_div {
           h2 {
             position: static;
