@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap");
+
 body {
   position: absolute;
   width: 375px;
@@ -14,8 +15,8 @@ body header .Logo {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
 }
 
 body header .Logo ul li {
@@ -37,18 +38,18 @@ body header .Logo ul li a {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   text-align: center;
   color: #6070ff;
   -webkit-box-flex: 0;
-      -ms-flex: none;
-          flex: none;
+  -ms-flex: none;
+  flex: none;
   -webkit-box-ordinal-group: 1;
-      -ms-flex-order: 0;
-          order: 0;
+  -ms-flex-order: 0;
+  order: 0;
   -ms-flex-positive: 0;
-      flex-grow: 0;
+  flex-grow: 0;
   margin: 0 0;
 }
 
@@ -81,17 +82,17 @@ body main .hero_section .hero h1 {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   color: #172b4d;
   -webkit-box-flex: 0;
-      -ms-flex: none;
-          flex: none;
+  -ms-flex: none;
+  flex: none;
   -webkit-box-ordinal-group: 1;
-      -ms-flex-order: 0;
-          order: 0;
+  -ms-flex-order: 0;
+  order: 0;
   -ms-flex-positive: 0;
-      flex-grow: 0;
+  flex-grow: 0;
   margin: 12px 0;
 }
 
@@ -107,13 +108,13 @@ body main .hero_section .hero p {
   line-height: 24px;
   color: #344563;
   -webkit-box-flex: 0;
-      -ms-flex: none;
-          flex: none;
+  -ms-flex: none;
+  flex: none;
   -webkit-box-ordinal-group: 2;
-      -ms-flex-order: 1;
-          order: 1;
+  -ms-flex-order: 1;
+  order: 1;
   -ms-flex-positive: 0;
-      flex-grow: 0;
+  flex-grow: 0;
   margin: 12px 0;
 }
 
@@ -128,21 +129,21 @@ body main .projects_section {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   padding: 16px;
   position: static;
   width: 327px;
   height: 552px;
   left: calc(50% - 327px / 2);
   top: 114px;
-  background: #ffffff;
+  background: #fff;
   border: 1px solid #dfe1e6;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   border-radius: 16px;
   margin: 5rem 1rem;
 }
@@ -156,22 +157,22 @@ body main .projects_section .project .image_div {
   background: url(blog_drbl_4x.png);
   border-radius: 8px;
   -webkit-box-flex: 0;
-      -ms-flex: none;
-          flex: none;
+  -ms-flex: none;
+  flex: none;
   -webkit-box-ordinal-group: 1;
-      -ms-flex-order: 0;
-          order: 0;
+  -ms-flex-order: 0;
+  order: 0;
   -ms-flex-positive: 0;
-      flex-grow: 0;
-  margin: 12px 0px;
+  flex-grow: 0;
+  margin: 12px 0;
 }
 
 body main .projects_section .project .details_div h2 {
   position: static;
   width: 295px;
   height: 36px;
-  left: 0px;
-  top: 0px;
+  left: 0;
+  top: 0;
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: bold;
@@ -179,20 +180,20 @@ body main .projects_section .project .details_div h2 {
   line-height: 44px;
   color: #172b4d;
   -webkit-box-flex: 0;
-      -ms-flex: none;
-          flex: none;
+  -ms-flex: none;
+  flex: none;
   -webkit-box-ordinal-group: 1;
-      -ms-flex-order: 0;
-          order: 0;
+  -ms-flex-order: 0;
+  order: 0;
   -ms-flex-positive: 0;
-      flex-grow: 0;
-  margin: 12px 0px;
+  flex-grow: 0;
+  margin: 12px 0;
 }
 
 body main .projects_section .project .details_div .some_details .bold {
   list-style-type: none;
   height: 16px;
-  left: 0px;
+  left: 0;
   top: 8px;
   font-family: "Poppins", sans-serif;
   font-style: normal;
@@ -209,7 +210,7 @@ body main .project_details {
   position: static;
   width: 295px;
   height: 76px;
-  left: 0px;
+  left: 0;
   top: 92px;
   font-family: sans-serif;
   font-style: normal;
@@ -223,4 +224,3 @@ body main .technologies_used {
   background: #ebebff;
   border-radius: 8px;
 }
-/*# sourceMappingURL=main.css.map */
