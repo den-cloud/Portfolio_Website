@@ -1,5 +1,7 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;1,100&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Roboto:wght@500&display=swap");
+/* stylelint-disable  csstree/validator */
+/* stylelint-disable no-descending-specificity */
 body {
   position: absolute;
   width: 375px;
@@ -10,13 +12,10 @@ body {
 }
 
 body header .Logo {
-  /* stylelint-disable csstree/validator */
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
   justify-content: space-between;
+  padding: 3rem;
+  margin: 0.5rem;
 }
 
 body header .Logo ul li {
@@ -29,32 +28,28 @@ body header .Logo ul li a {
   left: 12px;
   top: 10px;
   text-decoration: none;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 18px;
   line-height: 20px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
   align-items: center;
   text-align: center;
   color: #6070ff;
-  -webkit-box-flex: 0;
-  -ms-flex: none;
   flex: none;
-  -webkit-box-ordinal-group: 1;
-  -ms-flex-order: 0;
   order: 0;
-  -ms-flex-positive: 0;
   flex-grow: 0;
   margin: 0 0;
 }
 
 body header .Logo ul li i {
   color: #6070ff;
+}
+
+body main {
+  display: flex;
+  flex-direction: column;
 }
 
 body main .hero_section {
@@ -78,20 +73,11 @@ body main .hero_section .hero h1 {
   font-weight: bold;
   font-size: 40px;
   line-height: 52px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
   align-items: center;
   color: #172b4d;
-  -webkit-box-flex: 0;
-  -ms-flex: none;
   flex: none;
-  -webkit-box-ordinal-group: 1;
-  -ms-flex-order: 0;
   order: 0;
-  -ms-flex-positive: 0;
   flex-grow: 0;
   margin: 12px 0;
 }
@@ -101,19 +87,14 @@ body main .hero_section .hero p {
   width: 327px;
   left: 24px;
   top: 276px;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
   line-height: 24px;
   color: #344563;
-  -webkit-box-flex: 0;
-  -ms-flex: none;
   flex: none;
-  -webkit-box-ordinal-group: 2;
-  -ms-flex-order: 1;
   order: 1;
-  -ms-flex-positive: 0;
   flex-grow: 0;
   margin: 12px 0;
 }
@@ -121,4 +102,178 @@ body main .hero_section .hero p {
 body main .hero_section .social_logos span a {
   padding: 0.3rem;
   color: #505f79;
+}
+
+body main .about_self {
+  border: 1px solid #dfe1e6;
+  border-top-right-radius: 5rem;
+  padding: 1rem;
+  width: 327px;
+  margin: 0 1rem;
+  background: #fff;
+}
+
+body main .about_self h1 {
+  position: static;
+  width: 327px;
+  height: 150px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 52px;
+  display: flex;
+  align-items: center;
+  color: #172b4d;
+}
+
+body main .about_self p {
+  position: static;
+  width: 327px;
+  left: 24px;
+  top: 276px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #344563;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 12px 0;
+}
+
+body main .about_self .social_logos2 span a {
+  padding: 0.3rem;
+  color: #505f79;
+}
+
+body main .about_self .external_links .view_project {
+  font-family: "Poppins", sans-serif;
+  margin: 0.6rem;
+  font-size: 17px;
+  line-height: 24px;
+  letter-spacing: 0.04em;
+  color: #396df2;
+}
+
+body main .about_self h3 {
+  height: 24px;
+  width: 237px;
+  left: 12px;
+  top: 24px;
+  font-family: "Poppins", sans-serif;
+}
+
+body main .about_self h3 i {
+  left: 25%;
+  right: 25%;
+  top: 37.5%;
+  bottom: 37.5%;
+  padding: 0.001rem;
+  border: 2px solid #acb7c3;
+  display: flex;
+}
+
+body main .projects_section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 16px;
+  width: 327px;
+  left: calc(50% - 327px / 2);
+  background: #fff;
+  margin: 2rem 0;
+}
+
+body main .projects_section .project {
+  box-sizing: border-box;
+  border-radius: 16px;
+  margin: 1rem;
+  padding: 1rem;
+  border: 1px solid #dfe1e6;
+}
+
+body main .projects_section .project .details_div h2 {
+  position: static;
+  width: 295px;
+  height: 36px;
+  left: 0;
+  top: 0;
+  font-weight: bolder;
+  font-family: "Poppins", sans-serif;
+  font-size: 33px;
+  line-height: 44px;
+  color: #172b4d;
+  margin: 12px 0;
+}
+
+body main .projects_section .project .details_div .technologies_used {
+  display: flex;
+  list-style: none;
+  flex-direction: row;
+  padding: 0;
+}
+
+body main .projects_section .project .details_div .technologies_used li {
+  font-family: "Poppins", sans-serif;
+  font-size: 12px;
+  letter-spacing: 0.03em;
+  color: #6070ff;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 4px 12px;
+  position: static;
+  background: #ebebff;
+  border-radius: 8px;
+  margin: 0 8px;
+}
+
+body main .projects_section .project .details_div p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-size: 17px;
+  color: #344563;
+}
+
+body main .projects_section .project .details_div .external_links .view_project {
+  font-family: "Poppins", sans-serif;
+  margin: 0.6rem;
+  font-size: 17px;
+  line-height: 24px;
+  letter-spacing: 0.04em;
+  color: #396df2;
+}
+
+body main .projects_section .project .details_div .some_details {
+  display: flex;
+  justify-content: space-between;
+  padding: 2px;
+}
+
+body main .projects_section .project .details_div .some_details .bold {
+  list-style-type: none;
+  position: static;
+  width: 55px;
+  height: 16px;
+  left: 0;
+  top: 8px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  color: #344563;
+}
+
+body main .projects_section .project .details_div .some_details li {
+  list-style-type: none;
+  padding: 0;
+}
+
+body main .projects_section .project .details_div .some_details li i {
+  font-size: 0.6rem;
+  padding: 0.5rem;
+  color: #c1c7d0;
 }
