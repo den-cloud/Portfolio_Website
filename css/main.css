@@ -217,4 +217,97 @@ body main .projects_section .project .details_div .some_details li i {
   padding: 0.5rem;
   color: #c1c7d0;
 }
+
+body main .projects_section .about_self {
+  border: 1px solid #dfe1e6;
+  border-top-right-radius: 9rem;
+  padding: 1rem;
+  /* Neutrals/N0 */
+  background: #ffffff;
+}
+
+body main .projects_section .about_self h1 {
+  position: static;
+  width: 327px;
+  height: 150px;
+  left: 24px;
+  top: 114px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 52px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #172b4d;
+  -webkit-box-flex: 0;
+      -ms-flex: none;
+          flex: none;
+  -webkit-box-ordinal-group: 1;
+      -ms-flex-order: 0;
+          order: 0;
+  -ms-flex-positive: 0;
+      flex-grow: 0;
+  margin: 12px 0;
+}
+
+body main .projects_section .about_self P {
+  position: static;
+  width: 327px;
+  left: 24px;
+  top: 276px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #344563;
+  -webkit-box-flex: 0;
+      -ms-flex: none;
+          flex: none;
+  -webkit-box-ordinal-group: 2;
+      -ms-flex-order: 1;
+          order: 1;
+  -ms-flex-positive: 0;
+      flex-grow: 0;
+  margin: 12px 0;
+}
+
+body main .projects_section .about_self .social_logos2 span a {
+  padding: 0.3rem;
+  color: #505f79;
+}
+
+body main .projects_section .about_self .external_links .view_project {
+  font-family: "Poppins", sans-serif;
+  margin: 0.6rem;
+  font-size: 17px;
+  line-height: 24px;
+  letter-spacing: 0.04em;
+  color: #396df2;
+}
+
+body main .projects_section .about_self h3 {
+  height: 24px;
+  width: 237px;
+  left: 12px;
+  top: 24px;
+  font-family: "Poppins", sans-serif;
+}
+
+body main .projects_section .about_self h3 i {
+  left: 25%;
+  right: 25%;
+  top: 37.5%;
+  bottom: 37.5%;
+  padding: 0.001rem;
+  border: 2px solid #acb7c3;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
 /*# sourceMappingURL=main.css.map */
