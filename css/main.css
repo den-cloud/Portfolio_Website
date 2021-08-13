@@ -10,18 +10,15 @@ body {
   top: 0;
   background: #fff;
 }
-
 body header .Logo {
   display: flex;
   justify-content: space-between;
   padding: 3rem;
   margin: 0.5rem;
 }
-
 body header .Logo ul li {
   list-style: none;
 }
-
 body header .Logo ul li a {
   position: static;
   height: 20px;
@@ -42,26 +39,21 @@ body header .Logo ul li a {
   flex-grow: 0;
   margin: 0 0;
 }
-
 body header .Logo ul li i {
   color: #6070ff;
 }
-
 body main {
   display: flex;
   flex-direction: column;
 }
-
 body main .hero_section {
   background-image: url(/images/Shapes.svg);
   background-repeat: no-repeat;
   padding: 0 2rem;
 }
-
 body main .hero_section .hero {
   padding-top: 90px;
 }
-
 body main .hero_section .hero h1 {
   position: static;
   width: 327px;
@@ -81,7 +73,6 @@ body main .hero_section .hero h1 {
   flex-grow: 0;
   margin: 12px 0;
 }
-
 body main .hero_section .hero p {
   position: static;
   width: 327px;
@@ -98,12 +89,10 @@ body main .hero_section .hero p {
   flex-grow: 0;
   margin: 12px 0;
 }
-
 body main .hero_section .social_logos span a {
   padding: 0.3rem;
   color: #505f79;
 }
-
 body main .about_self {
   border: 1px solid #dfe1e6;
   border-top-right-radius: 5rem;
@@ -112,7 +101,6 @@ body main .about_self {
   margin: 0 1rem;
   background: #fff;
 }
-
 body main .about_self h1 {
   position: static;
   width: 327px;
@@ -126,7 +114,6 @@ body main .about_self h1 {
   align-items: center;
   color: #172b4d;
 }
-
 body main .about_self p {
   position: static;
   width: 327px;
@@ -143,12 +130,10 @@ body main .about_self p {
   flex-grow: 0;
   margin: 12px 0;
 }
-
 body main .about_self .social_logos2 span a {
   padding: 0.3rem;
   color: #505f79;
 }
-
 body main .about_self .external_links .view_project {
   font-family: "Poppins", sans-serif;
   margin: 0.6rem;
@@ -157,7 +142,6 @@ body main .about_self .external_links .view_project {
   letter-spacing: 0.04em;
   color: #396df2;
 }
-
 body main .about_self h3 {
   height: 24px;
   width: 237px;
@@ -165,7 +149,6 @@ body main .about_self h3 {
   top: 24px;
   font-family: "Poppins", sans-serif;
 }
-
 body main .about_self h3 i {
   left: 25%;
   right: 25%;
@@ -175,7 +158,6 @@ body main .about_self h3 i {
   border: 2px solid #acb7c3;
   display: flex;
 }
-
 body main .projects_section {
   display: flex;
   flex-direction: column;
@@ -186,7 +168,6 @@ body main .projects_section {
   background: #fff;
   margin: 2rem 0;
 }
-
 body main .projects_section .project {
   box-sizing: border-box;
   border-radius: 16px;
@@ -194,7 +175,6 @@ body main .projects_section .project {
   padding: 1rem;
   border: 1px solid #dfe1e6;
 }
-
 body main .projects_section .project .details_div h2 {
   position: static;
   width: 295px;
@@ -208,14 +188,12 @@ body main .projects_section .project .details_div h2 {
   color: #172b4d;
   margin: 12px 0;
 }
-
 body main .projects_section .project .details_div .technologies_used {
   display: flex;
   list-style: none;
   flex-direction: row;
   padding: 0;
 }
-
 body main .projects_section .project .details_div .technologies_used li {
   font-family: "Poppins", sans-serif;
   font-size: 12px;
@@ -230,14 +208,12 @@ body main .projects_section .project .details_div .technologies_used li {
   border-radius: 8px;
   margin: 0 8px;
 }
-
 body main .projects_section .project .details_div p {
   font-family: "Poppins", sans-serif;
   font-weight: 900;
   font-size: 17px;
   color: #344563;
 }
-
 body main .projects_section .project .details_div .external_links .view_project {
   font-family: "Poppins", sans-serif;
   margin: 0.6rem;
@@ -246,13 +222,11 @@ body main .projects_section .project .details_div .external_links .view_project 
   letter-spacing: 0.04em;
   color: #396df2;
 }
-
 body main .projects_section .project .details_div .some_details {
   display: flex;
   justify-content: space-between;
   padding: 2px;
 }
-
 body main .projects_section .project .details_div .some_details .bold {
   list-style-type: none;
   position: static;
@@ -266,14 +240,14 @@ body main .projects_section .project .details_div .some_details .bold {
   font-size: 13px;
   color: #344563;
 }
-
 body main .projects_section .project .details_div .some_details li {
   list-style-type: none;
   padding: 0;
 }
-
 body main .projects_section .project .details_div .some_details li i {
   font-size: 0.6rem;
   padding: 0.5rem;
   color: #c1c7d0;
 }
+
+/*# sourceMappingURL=main.css.map */
