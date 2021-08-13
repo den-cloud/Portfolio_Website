@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Roboto:wght@500&display=swap");
 
+/* stylelint-disable  csstree/validator */
 body {
   position: absolute;
   width: 375px;
@@ -11,7 +12,6 @@ body {
 
   header {
     .Logo {
-      /* stylelint-disable csstree/validator */
       display: flex;
       justify-content: space-between;
 
@@ -136,41 +136,22 @@ body {
             color: #172b4d;
             margin: 12px 0;
           }
+
           p {
             font-family: "Poppins", sans-serif;
             font-weight: 900;
             font-size: 17px;
             color: #344563;
           }
+
           .external_links {
             .view_project {
               font-family: "Poppins", sans-serif;
-              font-size: 17px;
-              font-style: normal;
-              font-weight: 500;
-              line-height: 24px;
-              letter-spacing: 0.03em;
-              text-align: center;
               margin: 0.6rem;
-
-              font-family: Poppins;
-              font-style: normal;
-              font-weight: 500;
               font-size: 17px;
               line-height: 24px;
-              /* identical to box height, or 141% */
-
-              display: flex;
-              align-items: center;
-              text-align: center;
               letter-spacing: 0.04em;
               color: #396df2;
-            }
-            .view_project {
-              background-color: white;
-              color: #396DF2;;
-              border: 2px solid  #396DF2;
-              border-radius: 2px;
             }
           }
 
@@ -184,15 +165,15 @@ body {
               position: static;
               width: 55px;
               height: 16px;
-              left: 0px;
+              left: 0;
               top: 8px;
               font-family: "Poppins", sans-serif;
               font-style: normal;
               font-weight: 600;
               font-size: 13px;
-              // line-height: 16px;
               color: #344563;
             }
+
             li {
               list-style-type: none;
               padding: 0;
