@@ -206,7 +206,7 @@ body main .projects_section .project .details_div .technologies_used li {
   position: static;
   background: #ebebff;
   border-radius: 8px;
-  margin: 0px 8px;
+  margin: 0 8px;
 }
 body main .projects_section .project .details_div p {
   font-family: "Poppins", sans-serif;

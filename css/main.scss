@@ -17,6 +17,7 @@ body {
       justify-content: space-between;
       padding: 3rem;
       margin: 0.5rem;
+
       ul {
         li {
           list-style: none;
@@ -219,11 +220,13 @@ body {
             color: #172b4d;
             margin: 12px 0;
           }
+
           .technologies_used {
             display: flex;
             list-style: none;
             flex-direction: row;
             padding: 0;
+
             li {
               font-family: "Poppins", sans-serif;
               font-size: 12px;
@@ -236,7 +239,7 @@ body {
               position: static;
               background: #ebebff;
               border-radius: 8px;
-              margin: 0px 8px;
+              margin: 0 8px;
             }
           }
 
