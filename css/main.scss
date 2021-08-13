@@ -147,7 +147,7 @@ body {
               position: static;
               width: 55px;
               height: 16px;
-              left: 0px;
+              left: 0;
               top: 8px;
               font-family: "Poppins", sans-serif;
               font-style: normal;
@@ -156,14 +156,15 @@ body {
               // line-height: 16px;
               color: #344563;
             }
+
             li {
               list-style-type: none;
               padding: 0;
 
               i {
-                font-size: .6rem;
-                padding: .5rem;
-                color: #C1C7D0;
+                font-size: 0.6rem;
+                padding: 0.5rem;
+                color: #c1c7d0;
               }
             }
           }
