@@ -1,4 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+
+
+/* stylelint-disable  csstree/validator */
+/* stylelint-disable no-descending-specificity */
+/* stylelint-disable  no-duplicate-selectors */
 body {
   margin: 0;
   background-image: url(/images/Shapes.svg);
@@ -20,9 +25,8 @@ ul {
 .container {
   width: 375px;
   height: 718px;
-  left: 0px;
-  top: 0px;
-  //   text-align: center;
+  left: 0;
+  top: 0;
   padding: 0.8em 1.2em 1.3em 0.1em;
 }
 
@@ -45,6 +49,7 @@ header {
   width: 25px;
   margin-right: 50px;
 }
+
 .hero_section {
   .hero {
     padding-top: 80px;
@@ -60,6 +65,7 @@ header {
       margin: 3px;
       padding: 0.2em;
     }
+
     .infor {
       width: 300px;
       top: 276px;
@@ -75,6 +81,7 @@ header {
       margin: 5px;
       padding: 0.2em;
     }
+
     .connect {
       color: #7f8cff;
       font-size: 20px;
@@ -82,13 +89,16 @@ header {
       padding: 0.2em;
     }
   }
+
   .social_logos {
     margin-left: 0.3em;
   }
+
   span {
     padding: 0.3em;
     background-color: black;
   }
+
   i {
     color: #505f79;
   }
@@ -110,6 +120,7 @@ header {
   padding: 1rem;
   border: 1px solid #dfe1e6;
 }
+
 .details_div {
   h2 {
     width: 295px;
@@ -119,6 +130,7 @@ header {
     margin: 12px 0 2;
   }
 }
+
 .some_details {
   display: flex;
   justify-content: space-between;
@@ -177,13 +189,15 @@ i {
     color: #396df2;
   }
 }
+
 .about_self {
   border: 1px solid #dfe1e6;
   border-top-right-radius: 5rem;
   padding: 1rem;
   background: #fff;
 }
-h1 {
+
+h2 {
   width: 327px;
   font-size: 40px;
   line-height: 52px;
@@ -200,9 +214,11 @@ p {
 
 .social_logos2 {
   margin-left: 0.3em;
+
   span {
     padding: 0.3em;
     background-color: black;
+
     a {
       color: #505f79;
     }
