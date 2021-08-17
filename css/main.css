@@ -220,6 +220,7 @@ i {
 }
 
 .about_self {
+  margin-top: 5em;
   border: 1px solid #dfe1e6;
   border-top-right-radius: 5rem;
   padding: 1rem;
@@ -270,12 +271,5 @@ h3 {
   left: 12px;
   top: 24px;
   font-family: "Poppins", sans-serif;
-}
-
-#contact-section {
-  width: 375px;
-  height: 779px;
-  left: 0px;
-  background-image: url(/images/backgroun2.svg);
 }
 /*# sourceMappingURL=main.css.map */
