@@ -17,6 +17,7 @@ body {
   height: 70vh;
   border-bottom-left-radius: 110px;
   border: 1px solid white;
+  padding-bottom: 8em;
 }
 
 .intro-box {
@@ -25,6 +26,8 @@ body {
 
 h1 span {
   display: block;
+  transition: transform 4s;
+  transform: rotate(360deg);
 }
 
 header {
