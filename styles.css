@@ -26,8 +26,8 @@ body {
 
 h1 span {
   display: block;
-  transition: transform 10s;
-  transform: rotate(360deg);
+  transition: transform 5s;
+  transform: rotate(180deg);
 }
 
 header {
