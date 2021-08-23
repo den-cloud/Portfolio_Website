@@ -26,7 +26,7 @@ body {
 
 h1 span {
   display: block;
-  transition: transform 4s;
+  transition: transform 10s;
   transform: rotate(360deg);
 }
 
