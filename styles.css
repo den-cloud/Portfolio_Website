@@ -12,7 +12,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-image: url('images/background1.png');
+  background-image: url("images/background1.png");
   background-size: cover;
   height: 70vh;
   border-bottom-left-radius: 110px;
@@ -291,7 +291,6 @@ h2 {
   font-style: normal;
 }
 
-
 .about {
   padding-top: 100px;
 }
@@ -367,7 +366,7 @@ h2 {
 
 @media (min-width: 900px) {
   .intro-section {
-    background-image: url('images/main-desktop-background.png');
+    background-image: url("images/main-desktop-background.png");
     height: 80vh;
   }
 
@@ -405,8 +404,6 @@ h2 {
     background-size: cover;
   }
 }
-
-
 
 @media (min-width: 950px) {
   .languages-box2 {
