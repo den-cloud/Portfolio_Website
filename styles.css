@@ -4,17 +4,16 @@ body {
   overflow-x: hidden;
   margin: 0;
   padding: 0;
+  font-family: Poppins, sans-serif;
 }
 
 .intro-section {
   width: 100vw;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
   background-image: url("images/background1.png");
   background-size: cover;
-  height: 70vh;
   border-bottom-left-radius: 110px;
   border: 1px solid white;
 }
