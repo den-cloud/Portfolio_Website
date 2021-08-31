@@ -19,19 +19,19 @@ cancelImage.alt = 'cancel image';
 
 const menuIcon = document.querySelector('.menu');
 menuIcon.addEventListener('click', () => {
-    menuDiv.style.display = 'flex';
-    document.getElementById('header').style.filter = 'blur(0.3125rem)';
+  menuDiv.style.display = 'flex';
+  document.getElementById('header').style.filter = 'blur(0.3125rem)';
 });
 
 cancelImage.addEventListener('click', () => {
-    menuDiv.style.display = 'none';
-    document.getElementById('header').style.filter = 'none';
+  menuDiv.style.display = 'none';
+  document.getElementById('header').style.filter = 'none';
 });
 
 const itemLists = document.querySelectorAll('.menu-list-items');
 itemLists.forEach((item) => {
-    item.addEventListener('click', () => {
-        menuDiv.style.display = 'none';
-        document.getElementById('header').style.filter = 'none';
-    });
+  item.addEventListener('click', () => {
+    menuDiv.style.display = 'none';
+    document.getElementById('header').style.filter = 'none';
+  });
 });
