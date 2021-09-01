@@ -733,7 +733,7 @@ main {
 
   @keyframes left-right {
     0% {
-      transform: translateX(-1000px);
+      transform: translateX(1000px);
     }
 
     100% {
