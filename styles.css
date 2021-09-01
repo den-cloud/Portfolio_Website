@@ -796,12 +796,14 @@ main {
 
 .modal-btn {
   padding: 0.05rem;
-}
-
-.modal-btn {
   align-items: center;
   justify-content: space-evenly;
 }
+
+/* .modal-btn {
+  align-items: center;
+  justify-content: space-evenly;
+} */
 
 .modal-btn-container .modal-btn {
   display: flex;
