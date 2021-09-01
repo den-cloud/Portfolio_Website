@@ -106,7 +106,8 @@ main {
   flex-direction: column;
   align-items: flex-start;
   padding: 7.125rem 1.5rem;
-  background-image: url(../images/header-shapes-mobile.svg), url(../images/header-background-mobile.svg);
+  background-image: url(../images/header-shapes-mobile.svg),
+    url(../images/header-background-mobile.svg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top right;
@@ -535,16 +536,12 @@ main {
 
   @keyframes rotate {
     0% {
-      transform: perspective(100px) rotateX(0deg);
+      /* transform: perspective(100px) rotateX(0deg); */
     }
 
     100% {
-      transform: perspective(100px) rotateX(360deg);
+      /* transform: perspective(100px) rotateX(360deg); */
     }
-  }
-
-  .nav-link a {
-    transition: color 1s ease-in-out;
   }
 
   .nav-link:hover a {
@@ -561,7 +558,6 @@ main {
   }
 
   .headline {
-    padding: 13rem 16.25rem 11.1875rem 17.75rem;
     background-color: #fff;
     background-image: url(../images/Header-bg.svg);
   }
@@ -699,31 +695,7 @@ main {
   }
 
   section.headline h1 {
-    animation: top-bottom 2s ease-in-out 0.5s;
-  }
-
-  @keyframes top-bottom {
-    0% {
-      transform: translateY(-500px);
-    }
-
-    100% {
-      transform: translateY(0);
-    }
-  }
-
-  section.headline p {
-    animation: left-right 2s ease-in-out 0.5s;
-  }
-
-  @keyframes left-right {
-    0% {
-      transform: translateX(-1000px);
-    }
-
-    100% {
-      transform: translateX(0);
-    }
+    animation: top-bottom 5s ease-in-out 0.3s;
   }
 
   .contact-form {
