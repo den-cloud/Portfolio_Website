@@ -800,11 +800,6 @@ main {
   justify-content: space-evenly;
 }
 
-/* .modal-btn {
-  align-items: center;
-  justify-content: space-evenly;
-} */
-
 .modal-btn-container .modal-btn {
   display: flex;
 }
